@@ -12,6 +12,7 @@ ptyhon 3 Main.py
 ```sh 
 git clone
 cd app
+python3 -m venv ambiente_app
 source ambiente_app/bin/activate
 pip install -r requirements.txt
 pyton3 main.py
