@@ -6,3 +6,13 @@ Para correr el Juego debes abrir la Terminal y seguir las siguientes instruccion
 cd game
 ptyhon 3 Main.py
 ```
+
+## App Project
+
+```sh 
+git clone
+cd app
+source ambiente_app/bin/activate
+pip install -r requirements.txt
+pyton3 main.py
+```
