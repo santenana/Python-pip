@@ -14,3 +14,4 @@ def read_csv(path):
 if __name__ == '__main__':
   data = read_csv('./app/data.csv')
   print(data[0])
+
