@@ -2,14 +2,14 @@ import store
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
-app = FastAPI()
+appweb = FastAPI()
 
-@app.get('/')
+@appweb.get('/')
 def get_list():
     return[1,2,3,4,5]
 
 
-@app.get('/contact',response_class= HTMLResponse)
+@appweb.get('/contact',response_class= HTMLResponse)
 def get_dict():
     return """
     <!DOCTYPE html>
